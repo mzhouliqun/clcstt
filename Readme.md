@@ -3,6 +3,7 @@
 
 # How to compile:
 
+```
 [root@gg:/git/clcstt]# ls
 a2kr.c  kr2a.c  Makefile  TheSampleCode.c
 [root@gg:/git/clcstt]# make
@@ -13,6 +14,7 @@ a2kr  a2kr.c  kr2a  kr2a.c  Makefile  TheSampleCode.c
 [root@gg:/git/clcstt]# kr2a TheSampleCode.c
 
 ==slide over==
+```
 
 # kr2a can transform C Language code of K&R style to Allman style.
 
