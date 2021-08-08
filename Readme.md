@@ -24,19 +24,23 @@ a2kr  a2kr.c  kr2a  kr2a.c  Makefile  TheSampleCode.c
 
 ```
 #include <stdio.h>
+#include <stdlib.h>
 #include <string.h>
-int
-main(int argc, char *argv[])
+int main(int argc, char *argv[])
 {
-	if (argc != 2) {
-		fprintf(stderr, "Usage: %s [string]\n", argv[0]);
-	} else {
-		if (strcmp("aini", argv[1]) == 0)
-			printf("foo\n");
-		else
-			printf("bar\n");
-	}
-	return 0;
+·   if (argc != 2)
+·   {
+·   ·   fprintf(stderr, "Usage: %s [string]\n", argv[0]);
+·   ·   exit(EXIT_FAILURE);
+·   }
+·   else
+·   {
+·   ·   if (strcmp("woaini", argv[1]) == 0)
+·   ·   ·   printf("foo\n");
+·   ·   else
+·   ·   ·   printf("bar\n");
+·   }
+·   return 0;
 }
 ```
 
@@ -44,22 +48,23 @@ main(int argc, char *argv[])
 
 ```
 #include <stdio.h>
+#include <stdlib.h>
 #include <string.h>
-int
-main(int argc, char *argv[])
+int main(int argc, char *argv[])
 {
-	if (argc != 2)
-	{
-		fprintf(stderr, "Usage: %s [string]\n", argv[0]);
-	}
-	else
-	{
-		if (strcmp("aini", argv[1]) == 0)
-			printf("foo\n");
-		else
-			printf("bar\n");
-	}
-	return 0;
+·   if (argc != 2)
+·   {
+·   ·   fprintf(stderr, "Usage: %s [string]\n", argv[0]);
+·   ·   exit(EXIT_FAILURE);
+·   }
+·   else
+·   {
+·   ·   if (strcmp("woaini", argv[1]) == 0)
+·   ·   ·   printf("foo\n");
+·   ·   else
+·   ·   ·   printf("bar\n");
+·   }
+·   return 0;
 }
 ```
 
@@ -69,22 +74,23 @@ main(int argc, char *argv[])
 
 ```
 #include <stdio.h>
+#include <stdlib.h>
 #include <string.h>
-int
-main(int argc, char *argv[])
+int main(int argc, char *argv[])
 {
-	if (argc != 2)
-	{
-		fprintf(stderr, "Usage: %s [string]\n", argv[0]);
-	}
-	else
-	{
-		if (strcmp("aini", argv[1]) == 0)
-			printf("foo\n");
-		else
-			printf("bar\n");
-	}
-	return 0;
+·   if (argc != 2)
+·   {
+·   ·   fprintf(stderr, "Usage: %s [string]\n", argv[0]);
+·   ·   exit(EXIT_FAILURE);
+·   }
+·   else
+·   {
+·   ·   if (strcmp("woaini", argv[1]) == 0)
+·   ·   ·   printf("foo\n");
+·   ·   else
+·   ·   ·   printf("bar\n");
+·   }
+·   return 0;
 }
 ```
 
@@ -92,19 +98,23 @@ main(int argc, char *argv[])
 
 ```
 #include <stdio.h>
+#include <stdlib.h>
 #include <string.h>
-int
-main(int argc, char *argv[])
+int main(int argc, char *argv[])
 {
-	if (argc != 2) {
-		fprintf(stderr, "Usage: %s [string]\n", argv[0]);
-	} else {
-		if (strcmp("aini", argv[1]) == 0)
-			printf("foo\n");
-		else
-			printf("bar\n");
-	}
-	return 0;
+·   if (argc != 2)
+·   {
+·   ·   fprintf(stderr, "Usage: %s [string]\n", argv[0]);
+·   ·   exit(EXIT_FAILURE);
+·   }
+·   else
+·   {
+·   ·   if (strcmp("woaini", argv[1]) == 0)
+·   ·   ·   printf("foo\n");
+·   ·   else
+·   ·   ·   printf("bar\n");
+·   }
+·   return 0;
 }
 ```
 
