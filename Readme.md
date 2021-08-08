@@ -28,19 +28,16 @@ a2kr  a2kr.c  kr2a  kr2a.c  Makefile  TheSampleCode.c
 #include <string.h>
 int main(int argc, char *argv[])
 {
-   if (argc != 2)
-   {
-      fprintf(stderr, "Usage: %s [string]\n", argv[0]);
-      exit(EXIT_FAILURE);
-   }
-   else
-   {
-      if (strcmp("woaini", argv[1]) == 0)
-         printf("foo\n");
-      else
-         printf("bar\n");
-   }
-   return 0;
+	if (argc != 2) {
+		fprintf(stderr, "Usage: %s [string]\n", argv[0]);
+		exit(EXIT_FAILURE);
+	} else {
+		if (strcmp("woaini", argv[1]) == 0)
+			printf("foo\n");
+		else
+			printf("bar\n");
+	}
+	return 0;
 }
 ```
 
@@ -52,19 +49,19 @@ int main(int argc, char *argv[])
 #include <string.h>
 int main(int argc, char *argv[])
 {
-   if (argc != 2)
-   {
-      fprintf(stderr, "Usage: %s [string]\n", argv[0]);
-      exit(EXIT_FAILURE);
-   }
-   else
-   {
-      if (strcmp("woaini", argv[1]) == 0)
-         printf("foo\n");
-      else
-         printf("bar\n");
-   }
-   return 0;
+	if (argc != 2)
+	{
+		fprintf(stderr, "Usage: %s [string]\n", argv[0]);
+		exit(EXIT_FAILURE);
+	}
+	else
+	{
+		if (strcmp("woaini", argv[1]) == 0)
+			printf("foo\n");
+		else
+			printf("bar\n");
+	}
+	return 0;
 }
 ```
 
@@ -78,19 +75,19 @@ int main(int argc, char *argv[])
 #include <string.h>
 int main(int argc, char *argv[])
 {
-   if (argc != 2)
-   {
-      fprintf(stderr, "Usage: %s [string]\n", argv[0]);
-      exit(EXIT_FAILURE);
-   }
-   else
-   {
-      if (strcmp("woaini", argv[1]) == 0)
-         printf("foo\n");
-      else
-         printf("bar\n");
-   }
-   return 0;
+	if (argc != 2)
+	{
+		fprintf(stderr, "Usage: %s [string]\n", argv[0]);
+		exit(EXIT_FAILURE);
+	}
+	else
+	{
+		if (strcmp("woaini", argv[1]) == 0)
+			printf("foo\n");
+		else
+			printf("bar\n");
+	}
+	return 0;
 }
 ```
 
@@ -102,19 +99,15 @@ int main(int argc, char *argv[])
 #include <string.h>
 int main(int argc, char *argv[])
 {
-   if (argc != 2)
-   {
-      fprintf(stderr, "Usage: %s [string]\n", argv[0]);
-      exit(EXIT_FAILURE);
-   }
-   else
-   {
-      if (strcmp("woaini", argv[1]) == 0)
-         printf("foo\n");
-      else
-         printf("bar\n");
-   }
-   return 0;
+	if (argc != 2) {
+		fprintf(stderr, "Usage: %s [string]\n", argv[0]);
+		exit(EXIT_FAILURE);
+	} else {
+		if (strcmp("woaini", argv[1]) == 0)
+			printf("foo\n");
+		else
+			printf("bar\n");
+	}
+	return 0;
 }
 ```
-
