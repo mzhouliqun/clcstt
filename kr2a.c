@@ -39,6 +39,7 @@ void handle(FILE *fp)
 	char sd[LEN] = {'\0'};
 	char source[LEN] = {'\0'};
 	char el[LEN] = {'\0'};
+	char temp[LEN] = {'\0'};
 	char lch = 0;
 
 	while ((fgets(str, LEN, fp)) != NULL)
@@ -60,17 +61,32 @@ void handle(FILE *fp)
 			}
 		}
 
-		for (int i = l1 - 1; i >= 0; i--)
+		strcpy(temp, str);
+		get_first_word(temp);
+		if (strcmp(temp, "else") == 0)
 		{
-			if (str[i] == '{')
+			strcpy(str, space);
+			int tl = strlen(space);
+			str[tl] = 'e';
+			str[tl + 1] = 'l';
+			str[tl + 2] = 's';
+			str[tl + 3] = 'e';
+			str[tl + 4] ='\0';
+		}
+		else
+		{
+			for (int i = l1 - 1; i >= 0; i--)
 			{
-				for (int j = i - 1; j >= 0; j--)
-					if (str[j] == ')')
-					{
-						str[j + 1] = '\0';
-						break;
-					}
-				break;
+				if (str[i] == '{')
+				{
+					for (int j = i - 1; j >= 0; j--)
+						if (str[j] == ')')
+						{
+							str[j + 1] = '\0';
+							break;
+						}
+					break;
+				}
 			}
 		}
 
